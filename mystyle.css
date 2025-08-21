@@ -1,0 +1,90 @@
+body {
+    background-color: aquamarine;
+    
+}
+
+.container{
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {opacity: 0;}
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+h1{
+
+    text-align: left;
+    font-family: sans-serif;
+}
+p1 {
+    border-style: round;
+      border: 2px solid rgb(24, 23, 23);
+      border-radius: 4px;
+      background-image: url('searchicon.png');
+      padding: 5px;
+      width: 600px;
+      margin: left;
+      font-style: italic;
+  }
+  h2 {
+    width: 1080px;
+    background-color: #0e0f0e;
+    color:white;
+    padding:20px 20px;
+    margin: center;
+    border:none;
+    border-radius: 4px;
+}
+img {
+    border-radius: 8px;
+    width:200px;
+    height:200px;
+    padding:30px;
+}
+.item {
+    width: 200px;
+    text-align: center;
+    font-size: larger;
+    display: block;
+    background-color: transparent;
+    border:1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+*{
+box-sizing: border-box;
+}
+.column {
+    float:left;
+    width:10.33%;
+    padding:5px;
+}
+/*clearfix (clearfloats after image containers) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+h2 {
+    color:white;
+    text-align: left;
+}
